@@ -3,6 +3,24 @@ function calculate(num1, num2, operator) {
   // return the final value that you get after operating on num1 and num2 based on what the operator is
   // if operator == "+" then return num1+num2 , else if operator == "-" then return num1-num2 and so on....
   //   write your code here -->
+  let x ;
+    if(operator=='+'){
+        x=num1+num2;
+    }
+    else if(operator=='-'){
+        x=num1-num2;
+    }
+    else if(operator=='*'){
+        x=num1*num2;
+    }
+    else if(operator=='/'){
+        x=num1/num2;
+    }
+    else{
+        x=null;
+    }
+
+    return x;
 }
 
 // ignore the function below
